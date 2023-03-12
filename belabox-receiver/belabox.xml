@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>BELABOX-Receiver</Name>
+  <Repository>kezzkezz/belabox</Repository>
+  <Registry>https://hub.docker.com/r/kezzkezz/belabox</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/kierran0094/belabox-receiver</Project>
+  <Overview>Belabox receiver-side (srtla, srt-live-transmit, srt-live-server and noalbs) in a single container.</Overview>
+  <Category>MediaServer:Video</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://github.com/715209/nginx-obs-automatic-low-bitrate-switching/raw/v2/noalbsicopre2.ico</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1678591485</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Location of Config.json" Target="/app/config.json" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false"/>
+  <Config Name="Location of sls.conf" Target="/etc/sls/sls.conf" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false"/>
+  <Config Name="location of .env" Target="/app/.env" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false"/>
+  <Config Name="SRTLA Port" Target="5000" Default="" Mode="udp" Description="" Type="Port" Display="always" Required="false" Mask="false"/>
+  <Config Name="SRT Live Port" Target="8181" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false"/>
+  <Config Name="SRT Transmit Port" Target="8282" Default="" Mode="udp" Description="" Type="Port" Display="always" Required="false" Mask="false"/>
+</Container>
