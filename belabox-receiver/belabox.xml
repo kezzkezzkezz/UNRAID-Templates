@@ -8,7 +8,7 @@
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support/>
-  <Project>https://github.com/kierran0094/belabox-receiver</Project>
+  <Project>https://github.com/kezzkezzkezz/belabox-receiver</Project>
   <Overview>Belabox receiver-side (srtla, srt-live-transmit, srt-live-server and noalbs) in a single container.</Overview>
   <Category>MediaServer:Video</Category>
   <WebUI/>
